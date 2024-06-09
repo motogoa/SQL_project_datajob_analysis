@@ -4,8 +4,6 @@ WITH top_paying_jobs AS (
     jpf.job_title,
     c.name company,
     jpf.salary_year_avg
-    --sjd.skill_id,
-    --sd.skills
     FROM job_postings_fact jpf
     NATURAL JOIN company_dim c
     WHERE salary_year_avg IS NOT NULL
