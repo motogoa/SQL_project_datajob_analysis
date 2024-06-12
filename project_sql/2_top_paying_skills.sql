@@ -8,7 +8,7 @@ WITH top_paying_jobs AS (
     NATURAL JOIN company_dim c
     WHERE salary_year_avg IS NOT NULL
         AND job_title_short = 'Data Analyst'
-        AND job_work_from_home IS NOT FALSE
+        --AND job_work_from_home IS NOT FALSE
     ORDER BY salary_year_avg DESC
     limit 10
 )
@@ -21,7 +21,7 @@ INNER JOIN skills_job_dim sjd ON tpj.job_id = sjd.job_id
 INNER JOIN skills_dim sd ON sjd.skill_id = sd.skill_id;
 
 
-/* ChatGPT analysis
+/* Data analysis
 
 Executive Summary
 This analysis provides insights into the frequency of various skills associated with top-paying jobs.

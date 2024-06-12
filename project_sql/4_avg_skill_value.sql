@@ -13,7 +13,7 @@ ORDER BY avg_sal DESC
 LIMIT 25;
 
 
-/* ChatGPT resume:
+/* Data analysis:
 
 Executive Summary
 The following analysis highlights the top 25 highest-paying skills for Data Analysts, showcasing their average annual salaries.
