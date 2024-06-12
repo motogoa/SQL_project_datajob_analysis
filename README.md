@@ -33,6 +33,8 @@ limit 10;
 
 No insights here, except that there are various outliers at the top which are probably C-level administrative jobs, beyond the scope of this study.
 
+https://github.com/motogoa/SQL_project_datajob_analysis/blob/main/Assets/2024-06-11_13-53-58.png
+
 ![Top-10 salaries](Assets\2024-06-11_13-53-58.png)
 
 ### Top-paying Skills
